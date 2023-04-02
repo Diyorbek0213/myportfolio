@@ -1,0 +1,94 @@
+/* Стили для фона */
+body {
+    background-image: url(https://avatars.dzeninfra.ru/get-zen_doc/1889495/pub_5f9d923a3910530e0d263525_5f9d95ac9ac0705ae4d73362/scale_1200);
+    background-size: cover;
+    }
+    
+    /* Стили для заголовка */
+    h1 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+    padding-top: 100px;
+    }
+    
+    /* Стили для подзаголовков */
+    h2 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    margin: 20px 0 10px;
+    text-align: center;
+    }
+    
+    /* Стили для контента */
+    p, ul {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+    line-height: 2;
+    margin: 0 0 20px;
+    color: white;
+    }
+    
+    /* Стили для списка навыков и проектов */
+    ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    li {
+    margin-bottom: 10px;
+    }
+    
+    /* Стили для ссылок */
+    a {
+    color: white;
+    text-decoration: none;
+    }
+    
+    /* Стили для кнопок */
+    button, input[type="submit"] {
+    background-color: #2ecc71;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    }
+    
+    button:hover, input[type="submit"]:hover {
+    background-color: #27ae60;
+    }
+    
+    /* Стили для шапки */
+    header {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    }
+    
+    /* Стили для основного контента */
+    main {
+    margin: 50px;
+    }
+    
+    /* Стили для футера */
+    footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    }
